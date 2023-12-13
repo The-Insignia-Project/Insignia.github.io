@@ -330,11 +330,11 @@ const menuItems = [
         extDeveloper: 'pinksheep2917'
     },
     {
-        name: 'Extended Sound',
+        name: 'Sound Systems',
         extensionId: 'jgExtendedAudio',
         iconURL: jgExtendedAudioExtensionIcon,
         tags: ['penguinmod', 'categoryexpansion'],
-        description: 'Free speed and pitch control, starting sounds at certain positions, stopping sounds, etc.',
+        description: 'An audio grouping system for more intensive audio work.',
         featured: true
     },
     {
@@ -981,6 +981,14 @@ const menuItems = [
 if (IsLocal || IsLiveTests) {
     const extras = [
         {
+            name: 'Christmas',
+            extensionId: 'jgChristmas',
+            iconURL: defaultExtensionIcon,
+            tags: ['penguinmod'],
+            description: 'hooraye',
+            featured: true
+        },
+        {
             name: 'Legacy Files',
             extensionId: 'jgFiles',
             iconURL: defaultExtensionIcon,
@@ -1070,6 +1078,7 @@ if (IsLocal || IsLiveTests) {
             iconURL: defaultExtensionIcon,
             tags: ['penguinmod'],
             description: 'Test extension to see if things are possible.\nDO NOT USE THIS IN PRODUCTION as blocks are subject to change and may corrupt your projects.',
+            credits: 'Some features added from LilyMakesThings, CubesterYT, TheShovel',
             featured: true
         },
         {
