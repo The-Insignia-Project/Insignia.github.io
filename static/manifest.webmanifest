@@ -4,18 +4,18 @@
   "description": "A mix of scratch and blender.",
   "icons": [
     {
-      "src": "images/192.png",
+      "src": "images/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/512.png",
+      "src": "images/android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": "editor",
-  "background_color": "#333333",
+  "background_color": "#FD27C7",
   "display": "standalone",
-  "theme_color": "#333333"
+  "theme_color": "#FFFFFF"
 }
